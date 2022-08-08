@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Barang"
+        android:textAllCaps="true"
+        android:textStyle="italic|bold"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/editTextSuBName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Harga Barang"
+        android:textStyle="bold"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/editTextSuBName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Status Barang"
+        android:textStyle="bold"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/editTextSuBName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lokasi Barang"
+        android:textStyle="bold"
+        android:enabled="false"/>
+
+</LinearLayout>
